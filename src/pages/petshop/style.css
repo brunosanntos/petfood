@@ -1,0 +1,27 @@
+.star {
+   color: #facd5d !important; 
+}
+
+.icons {
+    vertical-align: middle;
+    color: #626264;
+}
+
+.petshop-info text {
+    font-size: 13px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #626264;
+}
+
+.badge {
+    margin: 10px 0px;
+    background-color: #626264;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.petshop-image {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
