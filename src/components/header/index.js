@@ -1,5 +1,9 @@
 //import Logo from '../../assets/logo.png'
 //import LogoWhite from '../../assets/logo-White.png'
+import './style.css'
+
+//Import icons
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Header = ({ whiteVersion }) => {
   return (
@@ -9,6 +13,10 @@ const Header = ({ whiteVersion }) => {
           codigo img abaixo
         </div>
       </header>
+      <button className="btn btn-secondary cart-button">
+        <ShoppingCartIcon />
+        2 Items
+      </button>
     </div>
   )
 }
